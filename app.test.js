@@ -22,11 +22,11 @@ describe("#doubleAndReturnArgs", function () {
     });
 });
 
-// describe("#removeRandom", function () {
-//     it("returns array without the random number", function () {
-//         expect(removeRandom([1, 2, 3, 4, 5, 6, 7])).toEqual([1, 2, 4, 5, 6, 7]);
-//     });
-// });
+describe("#removeRandom", function () {
+    it("returns array without the random number", function () {
+        expect(removeRandom([1, 2, 3, 4, 5, 6, 7]).length).toEqual(6);
+    });
+});
 
 describe("#extend", function () {
     it("returns extneded array of two arrays", function () {
